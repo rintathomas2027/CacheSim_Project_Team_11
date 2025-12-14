@@ -1,4 +1,4 @@
-# LRU Cache Replacement Algorithm
+
 
 def lru_cache_simulation(reference_string, cache_size):
     cache = []
@@ -11,13 +11,13 @@ def lru_cache_simulation(reference_string, cache_size):
     for block in reference_string:
         if block in cache:
             hits += 1
-            # Move the block to most recently used position
+           
             cache.remove(block)
             cache.append(block)
             result = "HIT"
         else:
             misses += 1
-            # If cache is full, remove least recently used block
+          
             if len(cache) == cache_size:
                 cache.pop(0)
             cache.append(block)
@@ -32,7 +32,7 @@ def lru_cache_simulation(reference_string, cache_size):
     print("Hit Ratio   :", hit_ratio)
 
 
-# Driver Code
+
 reference_string = [1, 2, 3, 4, 1, 2, 5]
 cache_size = 3
 
