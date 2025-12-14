@@ -4,6 +4,10 @@ Branch Name: lru_module All LRU-related source code, documentation, flow diagram
 
 PROJECT TITLE:LRU Cache REPLACEMENT ALGORITHM SIMULATIOM
 
+RINTA THOMAS
+Team 11 – LRU Module
+
+
 ## Description
 This module implements the Least Recently Used (LRU) cache replacement policy.
 The Least Recently Used (LRU) cache replacement algorithm is a memory management technique used to decide which items to remove from a cache when it reaches its capacity. LRU operates on the principle that the data that has not been used for the longest time is least likely to be used in the near future, so it is the first candidate for removal.
@@ -35,8 +39,7 @@ put(3, C)
 get(2) → moves 2:B to MRU
 put(4, D) → removes 1:A
 
-RINTA THOMAS
-Team 11 – LRU Module
+
 ## 🎞️ LRU Cache Simulation Demo
 
 ![LRU Cache Simulation](lru.gif)
