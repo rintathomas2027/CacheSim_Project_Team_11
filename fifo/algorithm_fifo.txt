@@ -1,0 +1,9 @@
+## Algorithm (FIFO)
+1. Initialize an empty cache array.
+2. For each memory reference:
+   - If the block is already in cache → Count as **Hit**
+   - Else → **Miss**
+     - If cache is full → Remove the oldest block
+     - Insert the new block at the end
+3. Display cache content after each access.
+4. Calculate hits, misses, and hit ratio.
