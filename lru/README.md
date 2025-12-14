@@ -39,6 +39,43 @@ put(3, C)
 get(2) → moves 2:B to MRU
 put(4, D) → removes 1:A
 
+Advantages of LRU (Least Recently Used) Replacement AlgorithM
+
+.Good Performance
+LRU removes the page that has not been used for the longest time.
+This matches real program behavior, where recently used pages are likely to be used again.
+
+.Low Page Fault Rate
+Compared to FIFO, LRU generally produces fewer page faults.
+
+.No Belady’s Anomaly
+Increasing the number of frames never increases page faults in LRU.
+
+.Widely Used Concept
+Used in operating systems, CPU caches, and database caching systems.
+
+.Predictable Behavior
+Replacement decision is logical and consistent based on usage history.
+
+
+Disadvantages 
+
+.High Implementation Cost
+Requires tracking every page access.
+
+Needs extra hardware or complex data structures (stack, linked list, counters).
+.More Memory Overhead
+
+Additional space is required to store usage order or timestamps.
+.Slower Than FIFO
+
+Updating access information on every memory reference increases overhead.
+'Not Always Optimal
+
+Past behavior may not always predict future usage accurately.
+.Complex for Large Systems
+
+Difficult to implement efficiently when the cache size is very large.
 
 ## 🎞️ LRU Cache Simulation Demo
 
