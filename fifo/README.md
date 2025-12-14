@@ -1,52 +1,61 @@
-FIFO Cache Replacement Simulation
+Course: Digital Fundamentals and Computer Architecture & Advanced Software Engineering
+Assignment: Simulating Cache Memory Mapping and Replacement Algorithms using Git Collaboration
+Branch Name: fifo_module
+All FIFO-related source code, documentation, flow diagrams, and simulation files are maintained in this branch.
 
-Course: Digital Fundamentals and Computer Architecture & Advanced Software Engineering Assignment: Simulating Cache Memory Mapping and Replacement Algorithms using Git Collaboration Branch Name: fifo_module All FIFO-related source code, documentation, flow diagrams, and simulation files are maintained in this branch.
+1. Project Title
 
-Project Title
-FIFO Cache Replacement Algorithm Simulation
+  FIFO Cache Replacement Algorithm Simulation
 
-Objective
-The objective of this module is to simulate the FIFO (First-In First-Out) cache replacement algorithm and demonstrate its working using a reference string and fixed cache size. This module also supports the practical application of Git version control for collaborative software development as required by the assignment guidelines.
+2. Objective
 
-Description of FIFO Module
-The FIFO module simulates how cache memory handles page replacement using the First-In First-Out policy. When the cache is full and a new memory block needs to be inserted, the oldest block present in the cache is removed, regardless of how frequently it has been accessed.
+  The objective of this module is to simulate the FIFO (First-In First-Out) cache replacement algorithm and demonstrate its working using a reference string and     fixed cache size.
+  This module also supports the practical application of Git version control for collaborative software development as required by the assignment guidelines.
 
-This simulation:
+3. Description of FIFO Module
 
-Tracks hits and misses
+  The FIFO module simulates how cache memory handles page replacement using the First-In First-Out policy.
+  When the cache is full and a new memory block needs to be inserted, the oldest block present in the cache is removed, regardless of how frequently it has been     accessed.
 
-Displays cache state after each memory access
+  This simulation:
 
-Calculates hit ratio
+  Tracks hits and misses
 
-Visually represents FIFO behavior using diagrams and animation
+  Displays cache state after each memory access
 
-Brief Explanation of FIFO Algorithm
-FIFO (First-In First-Out) is one of the simplest cache replacement algorithms.
+  Calculates hit ratio
 
-Working Principle:
+  Visually represents FIFO behavior using diagrams and animation
 
-Pages are loaded into the cache in the order they arrive.
+4. Brief Explanation of FIFO Algorithm
 
-When the cache becomes full:
+  FIFO (First-In First-Out) is one of the simplest cache replacement algorithms.
 
-The page that entered the cache earliest is removed.
+  Working Principle:
 
-FIFO does not consider usage frequency, only arrival order.
+  Pages are loaded into the cache in the order they arrive.
 
-Advantages:
+  When the cache becomes full:
 
-Simple to implement
+  The page that entered the cache earliest is removed.
 
-Low overhead
+  FIFO does not consider usage frequency, only arrival order.
 
-Disadvantages:
+  Advantages:
 
-May remove frequently used pages
+  Simple to implement
 
-Can lead to poor performance in some cases
+  Low overhead
 
-Team Member Name and Role
-Name Sainu Anna Sajan
+  Disadvantages:
 
-Role FIFO Algorithm Implementation & Documentation
+  May remove frequently used pages
+
+  Can lead to poor performance in some cases
+
+5. Team Member Name and Role
+   
+  Name	 Sainu Anna Sajan
+  
+  Role   FIFO Algorithm Implementation & Documentation
+
