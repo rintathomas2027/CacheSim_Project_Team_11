@@ -39,6 +39,8 @@ put(3, C)
 get(2) → moves 2:B to MRU
 put(4, D) → removes 1:A
 
+
+
 Advantages of LRU (Least Recently Used) Replacement AlgorithM
 
 .Good Performance
