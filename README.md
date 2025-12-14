@@ -13,7 +13,7 @@ Frequently accessed blocks are kept in cache.
 
 More efficient than FIFO because it considers recent usage.
 
- LRU Algorithm 
+ LRU Algorithm =
 
 Initialize an empty cache of fixed size.
 
@@ -33,7 +33,7 @@ Insert the new block as the most recently used.
 
 Display cache contents after each access.
 
-Calculate:
+Calculate=
 
 Total Hits
 
