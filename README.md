@@ -55,7 +55,7 @@ Step	Block	Cache State (LRU → MRU)	Hit/Miss
 7	5	1 2 5	Miss
 
 
- Performance Calculation
+ Performance Calculation:
 
 Total References: 7
 
