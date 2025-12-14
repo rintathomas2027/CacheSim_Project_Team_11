@@ -41,7 +41,9 @@ put(4, D) → removes 1:A
 
 
 
-Advantages of LRU (Least Recently Used) Replacement AlgorithM
+
+
+Advantages of LRU (Least Recently Used) Replacement Algorithm
 
 .Good Performance
 LRU removes the page that has not been used for the longest time.
