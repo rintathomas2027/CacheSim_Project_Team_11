@@ -1,3 +1,5 @@
+Course: Digital Fundamentals and Computer Architecture & Advanced Software Engineering Assignment: Simulating Cache Memory Mapping and Replacement Algorithms using Git Collaboration Branch Name: lru_module All LRU-related source code, documentation, flow diagrams, and simulation files are maintained in this branch.
+
 # LRU Cache Module
 
 ## Description
