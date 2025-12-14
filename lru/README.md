@@ -31,7 +31,7 @@ put(3, C)
 get(2) → moves 2:B to MRU
 put(4, D) → removes 1:A
 
-##RINTA THOMAS
+RINTA THOMAS
 Team 11 – LRU Module
 ## 🎞️ LRU Cache Simulation Demo
 
