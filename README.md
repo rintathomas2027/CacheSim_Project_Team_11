@@ -1,24 +1,37 @@
-FIFO Cache Replacement Simulation
+FIFO Cache Replacement Module
 
-Module Name
-FIFO Cache Replacement Module (`fifo_module`)
+Project Title
+Simulating Cache Memory Mapping and Replacement Algorithms using Git Collaboration
 
-Subject
-24MCAT103 – Digital Fundamentals and Computer Architecture**
-24MCAT107 – Advanced Software Engineering**
+Description of FIFO Module
+This module implements and demonstrates the FIFO (First-In First-Out) Cache Replacement Algorithm as part of a cache memory simulation project.
+The FIFO module simulates how memory blocks are loaded into a fixed-size cache and how the oldest block is removed when the cache becomes full.
 
-Project Overview
-This module simulates the FIFO (First-In-First-Out) cache replacement algorithm using an array-based implementation.  
-The simulation demonstrates how memory blocks are inserted and removed from the cache based on their arrival order.
+The implementation provides:
+Step-by-step cache simulation
+Identification of cache hits and misses
+Final cache state and hit ratio calculation
+Visual support using flow diagrams and simulation illustrations
 
-The FIFO policy removes the oldest block in the cache when the cache becomes full and a new block needs to be loaded.
+Team Member Name & Role
+Sainu Anna Sajan – FIFO Module Implementation, Documentation & Visualization
+(Team 11 – Cache Simulation Project)
 
-Algorithm (FIFO)
-1. Initialize an empty cache array.
-2. For each memory reference:
-   - If the block is already in cache → Count as **Hit**
-   - Else → **Miss**
-     - If cache is full → Remove the oldest block
-     - Insert the new block at the end
-3. Display cache content after each access.
-4. Calculate hits, misses, and hit ratio.
+Brief Explanation of FIFO Algorithm
+The First-In First-Out (FIFO) cache replacement algorithm replaces the oldest memory block in the cache when a new block needs to be inserted and the cache is already full.
+
+Key Characteristics:
+Cache blocks are removed in the order they were added
+Simple to implement
+Does not consider how frequently or recently a block is used
+
+Working Principle:
+If the requested block is already in cache → Hit
+If not present → Miss
+If cache is full during a miss → Remove the earliest inserted block
+Insert the new block at the end of the queue
+
+Branch Name
+fifo_module
+
+All FIFO-related source code, documentation, flow diagrams, and simulation files are maintained in this branch.
