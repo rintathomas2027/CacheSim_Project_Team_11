@@ -1,6 +1,9 @@
 Course: Digital Fundamentals and Computer Architecture & Advanced Software Engineering
+
 Assignment: Simulating Cache Memory Mapping and Replacement Algorithms using Git Collaboration
+
 Branch Name: fifo_module
+
 All FIFO-related source code, documentation, flow diagrams, and simulation files are maintained in this branch.
 
 1. Project Title
