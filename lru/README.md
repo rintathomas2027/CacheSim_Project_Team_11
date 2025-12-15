@@ -7,7 +7,7 @@ PROJECT TITLE:LRU Cache REPLACEMENT ALGORITHM SIMULATIOM
 RINTA THOMAS
 Team 11 – LRU Module
 
-ROLE: LRUAlgorith Documentation And Implementation
+ROLE: LRU  Algorith Documentation And Implementation
 
 
 ## Description
