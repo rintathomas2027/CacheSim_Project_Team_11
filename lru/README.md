@@ -1,11 +1,15 @@
 Course: Digital Fundamentals and Computer Architecture & Advanced Software Engineering 
+
 Assignment: Simulating Cache Memory Mapping and Replacement Algorithms using Git Collaboration 
+
 Branch Name: lru_module All LRU-related source code, documentation, flow diagrams, and simulation files are maintained in this branch.
 
 PROJECT TITLE:LRU Cache REPLACEMENT ALGORITHM SIMULATIOM
 
 RINTA THOMAS
+
 Team 11 – LRU Module
+
 
 ROLE: LRU  Algorith Documentation And Implementation
 
@@ -40,6 +44,7 @@ put(2, B)
 put(3, C)
 get(2) → moves 2:B to MRU
 put(4, D) → removes 1:A
+
 
 
 
