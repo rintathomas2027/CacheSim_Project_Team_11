@@ -1,0 +1,38 @@
+Input:
+    address (integer), data (string)
+    NUM_SETS = 4
+    WAYS = 2
+
+Data Structures:
+    cache[NUM_SETS][WAYS] → stores tag, data, valid bit
+    replacementCounter[NUM_SETS] → for round robin victim selection
+
+ProcessMemoryAccess(address, data):
+
+1. Compute setIndex = address % NUM_SETS
+2. Compute tag = address / NUM_SETS
+
+3. Check HIT:
+   For each way in cache[setIndex]:
+        If block.isValid AND block.tag == tag:
+            Update block.data = data
+            Display HIT
+            Highlight this cell
+            return
+
+4. MISS → Check for Empty Slot:
+   For each way in cache[setIndex]:
+        If block.isValid == false:
+            block.tag = tag
+            block.data = data
+            block.isValid = true
+            Display MISS (Empty Slot)
+            return
+
+5. MISS → Full Set (Eviction Required):
+   victim = replacementCounter[setIndex]
+   Replace cache[setIndex][victim] with new block
+   Update replacementCounter[setIndex] = (victim + 1) % WAYS
+   Display MISS + EVICTION
+
+End
