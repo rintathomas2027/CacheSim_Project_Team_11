@@ -1,0 +1,37 @@
+Algorithm: Least Frequently Used (LFU) Cache Replacement
+
+1-Start
+
+2-Initialize cache with fixed size C
+
+3-For each memory reference R do:
+
+4-If R is present in cache:
+
+   Increment frequency count of R
+
+5-Else (cache miss):
+ 
+    If cache has free space:
+
+      Insert R into cache
+
+      Set frequency count of R to 1
+
+  Else (cache full):
+
+    Find the cache block with the lowest frequency count
+
+    If multiple blocks have same lowest frequency:
+
+      Select the oldest among them
+   
+   Remove the selected block
+
+  Insert R into cache
+
+  Set frequency count of R to 1
+
+6-Repeat until all references are processed
+
+7-Stop
